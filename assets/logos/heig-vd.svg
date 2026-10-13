@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-labelledby="title desc">
+  <title id="title">HEIG-VD</title>
+  <desc id="desc">Haute École d'Ingénierie et de Gestion du Canton de Vaud</desc>
+  <rect x="0" y="12" width="10" height="48" fill="#bd1f35"/>
+  <text x="20" y="43" fill="#202124" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800" letter-spacing="-2">HEIG-VD</text>
+  <text x="21" y="61" fill="#52565b" font-family="Arial, Helvetica, sans-serif" font-size="8.8" font-weight="700" letter-spacing=".15">HAUTE ÉCOLE D'INGÉNIERIE ET DE GESTION</text>
+</svg>

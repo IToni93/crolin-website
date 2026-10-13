@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 78" role="img" aria-labelledby="title desc">
+  <title id="title">EGU</title>
+  <desc id="desc">European Geosciences Union</desc>
+  <circle cx="35" cy="37" r="27" fill="#0d5f9e"/>
+  <path d="M12 42c13-15 30-15 46 0M18 50c10-10 24-10 34 0M23 29c7-6 17-6 24 0" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="76" y="42" fill="#115f9f" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="800" letter-spacing="-2">EGU</text>
+  <text x="78" y="60" fill="#4d5a66" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" letter-spacing=".3">GENERAL ASSEMBLY</text>
+</svg>

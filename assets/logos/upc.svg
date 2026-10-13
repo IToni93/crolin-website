@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 76" role="img" aria-labelledby="title desc">
+  <title id="title">UPC</title>
+  <desc id="desc">Universitat Politècnica de Catalunya</desc>
+  <g fill="#a62b3e"><path d="M0 8h16v16H0zM20 8h16v16H20zM0 28h16v16H0zM20 28h16v16H20zM0 48h16v16H0zM20 48h16v16H20z"/></g>
+  <text x="53" y="43" fill="#a62b3e" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" letter-spacing="-2">UPC</text>
+  <text x="54" y="61" fill="#4f4f4f" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="700">UNIVERSITAT POLITÈCNICA DE CATALUNYA</text>
+</svg>

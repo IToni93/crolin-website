@@ -4,9 +4,9 @@ Jednostavna, statična web-stranica za projekt **CROLIN / Hrvatski interferometa
 
 ## Što se uređuje najčešće
 
-### Dodavanje publikacije
+### Dodavanje rezultata ili publikacije
 
-Otvori `data/publications.js` i dodaj samo novi objekt unutar uglatih zagrada. Primjer je već komentiran u datoteci.
+Otvori `data/publications.js` i dodaj novi objekt unutar uglatih zagrada, po uzoru na postojeći unos.
 
 ```js
 {
@@ -20,7 +20,7 @@ Ako dodaješ više publikacija, odvoji objekte zarezom. Stranica ih automatski n
 
 ### Dodavanje događaja
 
-Otvori `data/events.js`, dodaj događaj po komentiranom predlošku i spremi. Događaj se automatski pojavi u odjeljku **Događaji**.
+Otvori `data/events.js`, dodaj novi objekt po uzoru na postojeće unose i spremi. Događaj se automatski pojavi u odjeljku **Događaji**.
 
 ### Promjena novosti, teksta ili članova tima
 
@@ -57,11 +57,9 @@ U ovoj verziji već su objavljeni samo podaci primjereni javnoj projektnoj stran
 
 Namjerno nisu objavljeni naziv ili lokacija mjernog mjesta, vlasnik postrojenja, operativni raspored instrumenata, pristupni i mrežni podaci, neobjavljeni podaci te detaljne tehničke specifikacije. Ugovor također predviđa da javni sažetak isključuje financijske podatke, pa točan iznos i proračun nisu stavljeni na stranicu.
 
-## Logotipi institucija
+## Logotipi
 
-Kartice EPFL, HEIG-VD, UPC i UC Santa Cruz trenutno su neutralne tekstualne oznake, a ne preuzeti službeni logotipi. Tako se ne stvara dojam formalnog konzorcija niti se krše pravila njihovih vizualnih identiteta. Kada dobiješ dopuštenje za uporabu službenih logotipa, zamijeni tekstualne oznake odgovarajućim slikama i dodaj kratku potvrdu njihova statusa (npr. „međunarodni suradnici”).
-
-Isto vrijedi i za oznaku HRZZ: trenutačno je neutralna tekstualna oznaka. Ako HRZZ za projekt zahtijeva službeni logotip i specifičnu izjavu o financiranju, umetni njihov dostavljeni logo-paket i tekst bez preoblikovanja.
+Logotipi i oznake za FESB, HRZZ, međunarodne suradničke institucije te događaje nalaze se u `assets/` i `assets/logos/`. Stranica ih koristi lokalno, bez oslanjanja na vanjske datoteke.
 
 ## Lokalna provjera
 

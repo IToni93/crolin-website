@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 88" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 92" role="img" aria-labelledby="title desc">
   <title id="title">HRZZ</title>
-  <desc id="desc">Tekstualna oznaka Hrvatske zaklade za znanost</desc>
-  <g fill="#111315">
-    <text x="0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" letter-spacing="-2">HRZZ</text>
-    <text x="2" y="75" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing=".3">HRVATSKA ZAKLADA ZA ZNANOST</text>
+  <desc id="desc">Oznaka Hrvatske zaklade za znanost</desc>
+  <g fill="#e1262d">
+    <path d="M2 12h13v13H2zM28 12h13v13H28zM15 25h13v13H15zM2 38h13v13H2zM28 38h13v13H28zM15 51h13v13H15zM2 64h13v13H2zM28 64h13v13H28z"/>
+  </g>
+  <g fill="#175d9f">
+    <text x="57" y="51" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" letter-spacing="-2">HRZZ</text>
+    <text x="59" y="75" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing=".25">HRVATSKA ZAKLADA ZA ZNANOST</text>
   </g>
 </svg>

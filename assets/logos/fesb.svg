@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 76" role="img" aria-labelledby="title desc">
+  <title id="title">FESB</title>
+  <desc id="desc">Fakultet elektrotehnike, strojarstva i brodogradnje</desc>
+  <g fill="#0f5b91">
+    <path d="M0 8h13v60H0zM20 8h13v60H20zM40 8h13v60H40z" opacity=".85"/>
+    <text x="70" y="48" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" letter-spacing="-2">FESB</text>
+    <text x="72" y="66" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="700" letter-spacing=".24">SVEUČILIŠTE U SPLITU</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 78" role="img" aria-labelledby="title desc">
+  <title id="title">ICLP</title>
+  <desc id="desc">International Conference on Lightning Protection</desc>
+  <circle cx="35" cy="37" r="28" fill="none" stroke="#245e91" stroke-width="5"/>
+  <path d="M33 11h18L40 33h13L25 65l7-23H19z" fill="#e2b13c"/>
+  <text x="76" y="43" fill="#245e91" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="800" letter-spacing="-2">ICLP</text>
+  <text x="78" y="61" fill="#56636f" font-family="Arial, Helvetica, sans-serif" font-size="8.2" font-weight="800" letter-spacing=".13">LIGHTNING PROTECTION</text>
+</svg>

@@ -192,13 +192,9 @@ h3 { margin-bottom: .7rem; font-size: 1.36rem; }
 .institution-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .9rem; }
 .institution-card { display: flex; flex-direction: column; justify-content: space-between; min-height: 146px; padding: 1.15rem; color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .institution-card:hover, .institution-card:focus-visible { transform: translateY(-3px); box-shadow: var(--shadow); }
-.institution-mark { display: block; font-size: 1.42rem; font-weight: 900; letter-spacing: -.055em; }
-.epfl .institution-mark { color: #e0261f; letter-spacing: -.08em; }
-.heig .institution-mark { color: #c51d32; }
-.upc .institution-mark { color: #b31f39; }
-.ucsc .institution-mark { color: #005b7f; font-size: 1.13rem; letter-spacing: -.04em; }
+.institution-logo { width: min(100%, 168px); height: 42px; object-fit: contain; object-position: left center; }
 .institution-card > span:last-child { color: var(--ink-soft); font-size: .78rem; line-height: 1.25; }
-.fine-print { max-width: 760px; margin: 1.25rem 0 0; color: #6b7276; font-size: .78rem; }
+.collaboration-note { max-width: 690px; margin: 1.25rem 0 0; color: #6b7276; font-size: .88rem; }
 
 .news-card { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 1.8rem; padding: clamp(1.4rem, 4vw, 2.65rem); background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); }
 .news-date { align-self: start; display: grid; gap: .15rem; padding-right: 1.2rem; border-right: 1px solid var(--line); }
@@ -212,7 +208,10 @@ h3 { margin-bottom: .7rem; font-size: 1.36rem; }
 .empty-state { padding: 1.5rem; color: var(--ink-soft); border: 1px dashed #bbc0bd; border-radius: var(--radius); }
 .section-dark .empty-state { color: rgba(255,255,255,.70); border-color: rgba(255,255,255,.28); }
 
-.event-card { display: grid; grid-template-columns: 116px minmax(0, 1fr) auto; gap: 1.35rem; align-items: center; padding: 1.35rem; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); }
+.event-card { display: grid; grid-template-columns: 150px minmax(0, 1fr) auto; gap: 1.35rem; align-items: center; padding: 1.35rem; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); }
+.event-identity { display: grid; gap: .72rem; align-content: start; }
+.event-logo-wrap { display: grid; min-height: 50px; place-items: center start; }
+.event-logo { width: min(100%, 140px); height: 48px; object-fit: contain; object-position: left center; }
 .event-date { color: var(--ink); font-size: .9rem; font-weight: 900; line-height: 1.2; }
 .event-card h3 { margin-bottom: .35rem; font-size: 1.2rem; }
 .event-card p { margin: 0; color: var(--ink-soft); font-size: .93rem; }
@@ -221,16 +220,20 @@ h3 { margin-bottom: .7rem; font-size: 1.36rem; }
 
 .publication-card { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: 1.1rem; padding: 1.25rem; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.22); border-radius: var(--radius); }
 .publication-number { color: var(--acid); font-size: .86rem; font-weight: 900; }
+.publication-type { margin-bottom: .35rem; color: var(--acid); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.publication-title { margin-bottom: .45rem; color: #fff; font-size: clamp(1.2rem, 2vw, 1.55rem); }
 .publication-text { margin: 0; color: rgba(255,255,255,.86); }
+.publication-description { max-width: 800px; margin: .62rem 0 0; color: rgba(255,255,255,.68); }
 .publication-link { display: inline-block; margin-top: .55rem; color: var(--acid); font-size: .83rem; font-weight: 800; text-decoration-thickness: 1px; text-underline-offset: .18em; }
 
 .site-footer { color: rgba(255,255,255,.83); background: #191c1f; }
 .footer-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 2rem; padding-block: 3.2rem; }
 .footer-logo { width: 145px; margin-bottom: 1rem; filter: invert(1); }
+.footer-fesb-logo { width: 145px; height: 38px; margin: 0 0 1rem; filter: brightness(0) invert(1); object-fit: contain; object-position: left center; }
 .site-footer p { margin-bottom: .45rem; }
 .footer-muted { color: rgba(255,255,255,.57); font-size: .89rem; }
 .funding-mark { justify-self: end; max-width: 300px; }
-.funding-mark img { width: 190px; margin-bottom: 1rem; filter: invert(1); }
+.funding-mark img { width: 235px; margin-bottom: 1rem; padding: .75rem .9rem; background: #fff; border-radius: .5rem; }
 .funding-mark p { color: rgba(255,255,255,.65); font-size: .86rem; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 1.5rem; padding-block: 1.1rem; border-top: 1px solid rgba(255,255,255,.16); color: rgba(255,255,255,.54); font-size: .78rem; }
 .footer-bottom p { margin: 0; }
@@ -267,6 +270,9 @@ h3 { margin-bottom: .7rem; font-size: 1.36rem; }
   .news-date { grid-template-columns: auto auto; align-items: center; gap: .55rem; padding: 0 0 1rem; border-right: 0; border-bottom: 1px solid var(--line); }
   .news-date span { font-size: 1.7rem; }
   .event-card { grid-template-columns: 1fr; gap: .65rem; }
+  .event-identity { grid-template-columns: auto 1fr; align-items: center; }
+  .event-logo-wrap { min-height: auto; }
+  .event-logo { width: 115px; height: 38px; }
   .event-link { justify-self: start; }
   .funding-mark { justify-self: start; }
   .footer-bottom { display: block; }
